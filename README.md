@@ -1,4 +1,5 @@
 # anderson
+<<<<<<< Updated upstream
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,3 +12,6 @@
     <p>eae meu mundo</p>
 </body>
 </html>
+=======
+<a href="../ain.html">xereca</a>
+>>>>>>> Stashed changes

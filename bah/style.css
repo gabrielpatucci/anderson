@@ -18,7 +18,7 @@ main{
     display: block;
     font-family: bebas;
     background-color: #18ff00;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 #sinopse{
@@ -36,13 +36,12 @@ a{
 }
 #NAV{
     weight: auto;
-    box-shadow: 2px 1px 4px black;
+    box-shadow: 3px 1px 4px black;
     background-color:rgb(24, 24, 24);
 }
 .lista{
-    width: auto;
     list-style: none;
-    padding: 15px;
+    padding: 7px;
     font-size: 20px;
     display: inline-block;
 }
@@ -101,8 +100,17 @@ img{
     background-color: #18ff00;
 }
 .price{
+    padding: 7px;
     text-align: center;
-    background-color: aqua;
+    background-color: #18ff00;
     font-size: 22px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+@media(max-width: 600px) {
+    .lista {
+        display: none;
+    }
+    main{
+        width: 600px;
+    }
 }

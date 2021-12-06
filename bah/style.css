@@ -35,10 +35,12 @@ a{
     text-align: center;
 }
 #NAV{
+    weight: auto;
     box-shadow: 2px 1px 4px black;
     background-color:rgb(24, 24, 24);
 }
 .lista{
+    width: auto;
     list-style: none;
     padding: 15px;
     font-size: 20px;

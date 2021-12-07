@@ -107,14 +107,19 @@ img{
 }
 @media(max-width: 900px) {
     .lista {
-        display: inline-block;
-        width: 200px;
-        height: 30px;
+        
+        width: 450px;
+        font-display: none;
     }  
     main{
+        height: 100%;
         width: 450px;
     }  
+    .pag1{
+        padding: 25%;
+    }
 }
+
 
     
 
